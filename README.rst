@@ -1,8 +1,8 @@
-==========
-pgf90_test
-==========
+======================
+PGI/pgf90 compiler bug
+======================
 
-Simple test of the correctness of the PGI/pgf90 compiler.
+Simple test of the correctness of the PGI/pgf90 compiler. Discoved in the Dirac software (www.diracprogram.org) by Miro Ilias, where the piece of code was programmed by AVijit Shee.
 
 The testing software compilation works with Intel (v14) and GNU Fortran (v4.7) compilers:
 
@@ -12,7 +12,7 @@ The testing software compilation works with Intel (v14) and GNU Fortran (v4.7) c
   ifort -c src/wrapper_sorting.F90
 
 
-However, it fails with the pgf90 (here v13.10).
+However, it fails with the pgf90 (here v13.10, confirmed with higher versions).
 The TPR 22465 issue is attached to this PGI problem.
 
 ::
