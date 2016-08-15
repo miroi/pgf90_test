@@ -2,9 +2,11 @@
 PGI/pgf90 compiler bug
 ======================
 
-Simple test of the correctness of the PGI/pgf90 compiler. The bug was discovered in the Dirac software (www.diracprogram.org) by Miro Ilias. The piece of code was programmed by AVijit Shee.
+Simple test of the correctness of the PGI/pgf90 compiler. 
+The bug was discovered in the Dirac software (www.diracprogram.org) by Miro Ilias. 
+The piece of code was programmed by Avijit Shee.
 
-The testing software compilation works with Intel (v14) and GNU Fortran (v4.7) compilers:
+The testing software's compilation works with Intel (v14) and GNU Fortran (v4.7) compilers:
 
 ::
 
@@ -13,7 +15,7 @@ The testing software compilation works with Intel (v14) and GNU Fortran (v4.7) c
 
 
 However, the compilation fails with the pgf90 (here v13.10, confirmed with higher versions).
-The TPR 22465 report is attached to this PGI problem.
+The PGI report number TPR 22465 is associated with this problem.
 
 ::
 
