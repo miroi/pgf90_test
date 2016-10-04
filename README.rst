@@ -28,7 +28,7 @@ The PGI report number TPR 22465 is associated with this problem.
 Workaround
 ----------
 
-According to Brent from PGI, the *forall* loop has to be replaced by the classic do/enddo loop.
+According to Brent from PGI (FS#22465, pgfortran segfault in forall), the *forall* loop has to be replaced by the classic do/enddo loop.
 
 ::
 
